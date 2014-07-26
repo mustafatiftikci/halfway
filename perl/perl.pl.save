@@ -1,0 +1,9 @@
+#!usr/bin/perl
+
+@arr = <>;
+
+splice(@arr,1,10, (10..20))
+
+@arr = sort { $a <=> $b } @arr;
+
+print "@arr" ;
